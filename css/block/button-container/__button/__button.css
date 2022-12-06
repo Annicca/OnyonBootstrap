@@ -1,0 +1,17 @@
+.button-container__button{
+    background: #2196F3;
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    padding: 8px 23px;
+}
+.button-container__button:hover{
+    background: #0B79D0;
+}

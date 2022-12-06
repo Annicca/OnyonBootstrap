@@ -1,0 +1,5 @@
+.nav__list{
+    display: flex;
+    max-width: 1300px;
+    margin: 0 auto;
+}
