@@ -1,0 +1,17 @@
+.post__button{
+    position: relative;
+    width: 48px;
+    height: 48px;
+    background: #fff;
+    border-radius: 48px;
+    border: none;
+}
+.post__button:hover{
+    background: rgba(33, 150, 243, 0.04);
+}
+.post__button:hover svg{
+    fill: #2196F3;
+}
+.post__button:active{
+    background: rgba(33, 150, 243, 0.24);
+}

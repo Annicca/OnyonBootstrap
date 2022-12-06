@@ -1,0 +1,16 @@
+.menu__item{
+    font-size: 14px;
+    line-height: 20px;
+    background-color: #fff;
+    letter-spacing: 0.15px;
+    color: rgba(0, 0, 0, 0.87);
+    width: 100%;
+    padding-top: 9px;
+    padding-left: 16px;
+    padding-bottom: 7px;
+    border: none;
+    text-align: left;
+}
+.menu__item:hover{
+    background: #F5F5F5;
+}

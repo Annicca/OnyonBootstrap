@@ -1,0 +1,6 @@
+.post__link{
+    position: absolute;
+    top:  calc(50% - 5px);
+    left: calc(50% - 10px);
+    fill : #757575;
+}

@@ -1,0 +1,15 @@
+.public__status{
+    letter-spacing: 0.15px;
+    font-size: 14px;
+    line-height: 20px;
+    position: relative;
+    padding-left: 16px;
+}
+.public__status::before{
+    content:"\2022";
+    font-size: 26px;
+    font-weight: 700;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

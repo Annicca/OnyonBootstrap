@@ -1,0 +1,6 @@
+.post__dropdown{
+    position: absolute;
+    top: calc(50% - 8px);
+    left: calc(50% - 2px);
+    fill: rgba(0, 0, 0, 0.54);;
+}
