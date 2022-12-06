@@ -15,3 +15,6 @@
 .post__button:active{
     background: rgba(33, 150, 243, 0.24);
 }
+.post__button:disabled svg{
+    fill: #E0E0E0;
+}

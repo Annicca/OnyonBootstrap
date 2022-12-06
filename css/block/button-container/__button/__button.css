@@ -15,3 +15,10 @@
 .button-container__button:hover{
     background: #0B79D0;
 }
+.button-container__button:disabled{
+    background: rgba(0, 0, 0, 0.12);
+    color: rgba(0, 0, 0, 0.26);
+}
+.button-container__button:disabled svg{
+    fill: rgba(0, 0, 0, 0.26);
+}
