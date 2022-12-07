@@ -34,3 +34,5 @@
 @import url(../css/block/menu/menu.css);
 @import url(../css/block/menu/__item/__item.css);
 @import url(../css/block/menu/__list/__list.css);
+@import url(../css/block/public/__message/__message.css);
+@import url(../css/block/public/__message-container/__message-container.css);

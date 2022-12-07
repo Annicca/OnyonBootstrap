@@ -7,8 +7,9 @@
     text-align: left;
 }
 .posts__title:nth-child(1){
-    flex: 0 1 842px;
+    flex: 0 1 65%;
 }
 .posts__title:nth-child(2){
-    flex: 0 1 362px;
+    flex: 0 1 28%;
 }
+

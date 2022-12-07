@@ -1,0 +1,17 @@
+.public__message{
+    position: absolute;
+    margin-top: 6px;
+    padding: 4px 8px;
+    background: rgba(97, 97, 97, 0.9);
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+    left: -10%;
+    display: none;
+}
+
+.public__message-container:hover .public__message{
+    display:block;
+}

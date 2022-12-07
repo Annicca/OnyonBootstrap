@@ -1,0 +1,22 @@
+@import url(../css/bootstrap.css);
+@import url(../css/reset.css);
+@import url(../css/block/header/header.css);
+@import url(../css/block/header/__content/__content.css);
+@import url(../css/block/header/__title-container/__title-container.css);
+@import url(../css/block/header/__title/__title.css);
+@import url(../css/block/header/__title/_bold/_bold.css);
+@import url(../css/block/header/__second-title/__second-title.css);
+@import url(../css/block/header/__second-title/_small/_small.css);
+@import url(../css/block/header/__link/__link.css);
+@import url(../css/block/header/__text-link-icon/__text-link-icon.css);
+@import url(../css/block/main-container/main-container.css);
+@import url(../css/block/main-container/__title/__title.css);
+@import url(../css/block/main-container/__text/__text.css);
+@import url(../css/block/main-container/__text/_size_14/_size14.css);
+@import url(../css/block/main-container/__text/_size_12/_size_12.css);
+@import url(../css/block/main-container/__text/_dark/_dark.css);
+@import url(../css/block/main-container/__text/_margin/_margin.css);
+
+body{
+    color: rgba(0, 0, 0, 0.54);
+}

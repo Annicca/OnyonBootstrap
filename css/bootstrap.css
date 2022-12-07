@@ -184,7 +184,7 @@ textarea {
   }
   a,
   a:visited {
-    text-decoration: underline;
+    text-decoration: none;
   }
   a[href]:after {
     content: " (" attr(href) ")";
@@ -229,9 +229,8 @@ textarea {
 body {
   margin: 0;
   font-family: 'Roboto';
-  font-size: 14px;
-  line-height: 20px;
-  color: #333333;
+  letter-spacing: 0.15px;
+  color: #000;
   background-color: #ffffff;
 }
 
