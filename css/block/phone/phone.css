@@ -1,0 +1,12 @@
+.phone{
+    height: 73%;
+    width: 36%;
+    top: 12%;
+    left: calc(50% - 18%);
+    background: #FFFFFF;
+    border: 14px solid #E4E4E4;
+    border-radius: 45px;
+    position: absolute;
+    padding: 13px 19px;
+    box-sizing: border-box;
+}

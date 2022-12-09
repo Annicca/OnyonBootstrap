@@ -1,0 +1,9 @@
+.collection__label{
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 100%;
+    right: 12px;
+    font-size: 16px;
+}

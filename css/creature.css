@@ -1,22 +1,42 @@
-@import url(../css/bootstrap.css);
+
 @import url(../css/reset.css);
 @import url(../css/block/header/header.css);
 @import url(../css/block/header/__content/__content.css);
-@import url(../css/block/header/__title-container/__title-container.css);
 @import url(../css/block/header/__title/__title.css);
 @import url(../css/block/header/__title/_bold/_bold.css);
 @import url(../css/block/header/__second-title/__second-title.css);
-@import url(../css/block/header/__second-title/_small/_small.css);
-@import url(../css/block/header/__link/__link.css);
+@import url(../css/block/container/__link/__link.css);
 @import url(../css/block/header/__text-link-icon/__text-link-icon.css);
 @import url(../css/block/main-container/main-container.css);
 @import url(../css/block/main-container/__title/__title.css);
-@import url(../css/block/main-container/__text/__text.css);
-@import url(../css/block/main-container/__text/_size_14/_size14.css);
-@import url(../css/block/main-container/__text/_size_12/_size_12.css);
-@import url(../css/block/main-container/__text/_dark/_dark.css);
-@import url(../css/block/main-container/__text/_margin/_margin.css);
+@import url(../css/block/collection/__text/__text.css);
+@import url(../css/block/scroll/scroll.css);
+@import url(../css/block/collection/collection.css);
+@import url(../css/block/collection/__tale/__tale.css);
+@import url(../css/block/collection/__legend/__legend.css);
+@import url(../css/block/collection/__input/__input.css);
+@import url(../css/block/collection/__group/__group.css);
+@import url(../css/block/collection/__label/__label.css);
+@import url(../css/block/collection/__group/_big-text/_big-text.css);
+@import url(../css/block/collection/__textarea/__textarea.css);
+@import url(../css/block/collection/__group/_file/_file.css);
+@import url(../css/block/collection/__input-file/__input-file.css);
+@import url(../css/block/collection/__file/__file.css);
+@import url(../css/block/collection/__text/_load/_load.css);
+@import url(../css/block/collection/__file-img/__file-img.css);
+@import url(../css/block/fixed/fixed.css);
+@import url(../css/block/container/container.css);
+@import url(../css/block/phone/phone.css);
+@import url(../css/block/phone/__photo/__photo.css);
+@import url(../css/block/phone/__top-panel/__top-panel.css);
+@import url(../css/block/phone/__title-container/__title-container.css);
+@import url(../css/block/phone/__title/__title.css);
 
-body{
+body, input, textarea, button{
+    font-family: 'Roboto', sans-serif; 
     color: rgba(0, 0, 0, 0.54);
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
 }

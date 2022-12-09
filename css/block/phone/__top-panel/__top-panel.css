@@ -1,0 +1,9 @@
+.phone__top-panel{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 13px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}

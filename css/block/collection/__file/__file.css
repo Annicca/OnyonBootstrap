@@ -1,0 +1,17 @@
+.collection__file{
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    padding: 35px 37px;
+    border: 1px dashed rgba(0, 0, 0, 0.38);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.collection__file:active{
+    background: #F5F5F5;
+    border: 1px dashed #2196F3;
+}

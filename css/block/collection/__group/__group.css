@@ -1,0 +1,8 @@
+.collection__group{
+    position: relative;
+    height: 56px;
+    margin-top: 16px;
+}
+.collection__group:nth-child(1){
+    margin-top: 24px;
+}

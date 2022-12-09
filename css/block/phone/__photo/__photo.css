@@ -1,0 +1,8 @@
+.phone__photo{
+    position: relative;
+    width: 132px;
+    height: 113px;
+    margin: 0 auto;
+    top: 15%;
+    left: calc(50% - 132px/2);
+}

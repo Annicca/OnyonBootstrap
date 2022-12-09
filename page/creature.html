@@ -3,30 +3,77 @@
     <head>
         <meta charset="UTF-8">
         <title>Создать подборку</title>
-        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&amp;subset=cyrillic-ext" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../css/creature.css">
     </head>
     <body>
-        <header class="header">
-            <div class="header__content">
-                <a href = "socials.html" class="header__second-title">
-                    <svg width="12" height="12" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12 5.25H2.8725L7.065 1.0575L6 0L0 6L6 12L7.0575 10.9425L2.8725 6.75H12V5.25Z" fill = "black" fill-opacity="0.54"/>
-                    </svg>
-                    <span class="header__text-link-icon">Вернуться к списку</span>
-                </a>
-                <div class="header_title-container">
-                    <h1 class ="header__title header__title_bold">Создайте подборку</h1>
-                    <p class="header__second-title header__second-title_small">Перед началом ознакомьтесь с <a href="socials.html" class="header__link">гайдлайнами</a>, где вы найдете примеры правильного оформления</p>   
+        <div class="container">
+            <div class = "scroll">
+                <header class="header">
+                    <div class="header__content">
+                        <a href = "socials.html" class="header__second-title">
+                            <img src="../img/arrow.svg" alt="<-" />
+                            <span class="header__text-link-icon">Вернуться к списку</span>
+                        </a>
+                        <div>
+                            <h1 class ="header__title header__title_bold">Создайте подборку</h1>
+                            <p>Перед началом ознакомьтесь с <a href="socials.html" class="container__link">гайдлайнами</a>, где вы найдете примеры правильного оформления</p>   
+                        </div>
+                    </div>
+                </header>
+                    <form class="collection">
+                        <fieldset class = "collection__tale" >
+                            <legend class = "collection__legend" >
+                                <p>Расскажите о подборке</p>
+                                <p class="collection__text">Желательно сделать это кратко и ёмко</p>
+                            </legend>
+                            <div class="collection__group">
+                                <label for="discriptor" class = "collection__label">
+                                    <span class= "collection__label-number" >30</span>
+                                </label>
+                                <input type="text" class="collection__input" placeholder="Дискриптор" id = "discriptor" />
+                            </div>
+                            <div class="collection__group">
+                                <label for = "name" class = "collection__label">
+                                    <span class= "collection__label-number" >50</span>
+                                </label>
+                                <input type="text" class="collection__input" placeholder="Название" maxlength="50" id = "name" />
+                            </div>
+                            <div class="collection__group collection__group_big-text">
+                                <textarea class="collection__input collection__textarea" placeholder="Описание"></textarea>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend class="collection__legend">Загрузите обложку</legend>
+                            <div class="collection__group collection__group_file">
+                                <label for = "file" class="collection__file">
+                                    <image src="../img/file.svg" alt="Загрузите файл" class="collection__file-img" />
+                                    <div>
+                                        <p class="collection__text collection__text_load">Перетащите файл или <span class="container__link">загрузите с компьютера</span></p>
+                                        <p>Соотношение 1:1. Минимальный размер 1242х1242 px</p>
+                                    </div>
+                                </label>
+                                <input type="file" class="collection__input-file" id = "file" />
+                            </div>
+                        </fieldset>
+                    </form>
+            </div>
+            <div class="fixed">
+                <div class="phone">
+                        <div class="phone__top-panel">
+                            <p>22:47</p>
+                            <div>
+                                <img src="../img/wifi.svg" alt="wi-fi" />
+                                <img src="../img/battery.svg" alt="power" />
+                            </div>
+                        </div>
+                        <img src="../img/photo.svg" alt="Фото" class="phone__photo"/>
+                        <div class="phone__title-container">
+                            <p class="phone__title">Название</p>
+                            <p>Описание</p>
+                        </div>
                 </div>
             </div>
-
-        </header>
-        <main class="main-container">
-            <h2 class="main-container__title">Расскажи о подборке</h2>
-            <p class="main-container__text main-container__text_size_14 main-container__text_margin">Желательно сделать это кратко и ёмко</p>
-
-        </main>
-
+        </div>
     </body>
-</html>
+</html>  
